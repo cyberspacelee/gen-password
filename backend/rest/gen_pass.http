@@ -1,0 +1,10 @@
+POST http://localhost:3001/genPass
+Content-Type: application/json
+
+{
+    "passwdLength": 122,
+    "isIncludeUpperCaseLatters": true,
+    "isIncludeLowerCaseLatters": true,
+    "isIncludeNumbers": false,
+    "isIncludeSymbols": true
+}
